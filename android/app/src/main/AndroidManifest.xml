@@ -6,10 +6,9 @@
 
     <application
         android:label="Klayines"
-        android:icon="@mipmap/ic_launcher"
         android:theme="@android:style/Theme.Material.NoActionBar">
         <activity
-            android:name=".MainActivity"
+            android:name="io.flutter.embedding.android.FlutterActivity"
             android:exported="true"
             android:configChanges="orientation|screenSize">
             <intent-filter>
